@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="img">
+        <header id="top">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid justify-content-end">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-4 ms-auto">
+                            <li class="nav-item ms-4"><a class="nav-link" href="#top">Home</a></li>
+                            <li class="nav-item ms-4"><a class="nav-link" href="#about">About Me</a></li>
+                            <li class="nav-item ms-4"><a class="nav-link" href="#skills">Skills</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="section home" id="home">
+            <div class="container">
+                <h1 class="home_h1">Hello,</h1>
+                <h2 class="home_h2">I'm <span class="span">Mamatha NT</span></h2>
+                <p class="home_p">A Front-End Developer</p>
+                <p class="home_p_a"><a class="btn btn-dark home_a text-center" href="Mamatha NT - BE.pdf" target="__blank">View Resume</a></p>
+                
+            </div>
+        </section>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <section class="section about pt-5" id="about">
+        <div class="container">
+            <h2 class="text-center about_h2">About Me:</h2>
+            <p class="about_me">
+                I'm Mamatha NT. I have done my BE. Computer Science in AMC Engineering College.
+                I have taken courses on Full-Stack Development in Kodnest and Web development course on Udemy.
+            </p>
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-6">
+                    <h4 class="about_h4 mb-4">Personal Details</h4>
+                    <div class="row">
+                        <div class="col col-4">
+                            <p>Name: </p>
+                            <p>Age: </p>
+                            <p>Gender:</p>
+                            <p>Location:</p>
+                            <p>Email: </p>
+                            <p>Phone_no:</p>
+                        </div>
+
+                        <div class="col col-4">
+                            <p class="about_details"> Mamatha NT</p>
+                            <p class="about_details">24</p>
+                            <p class="about_details">Female</p>
+                            <p class="about_details">Bangalore </p>
+                            <p class="about_details">mamathant1997@gmail.com </p>
+                            <p class="about_details">9739990893</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 ">
+                    <h4 class="about_h4 mb-4">Education Qualifications</h4>
+                    <div class="row">
+                        <div class="col">
+                            <ul>
+                                <li>
+                                    <h5 class="about_education">AMC Engineering College</h5>
+                                    <p class="about_education">BE - Computer Science And Engineering</p>
+                                    <p class="about_education">5.29 CGPA</p>
+                                </li>
+                                <li>
+                                    <h5 class="about_education mt-4">Sunrise International Residential School</h5>
+                                    <p class="about_education">12th CBSE</p>
+                                    <p class="about_education">6.6 CGPA</p>
+                                </li>
+                                <li>
+                                    <h5 class="about_education mt-4">Venkat International Public School</h5>
+                                    <p class="about_education">10th CBSE</p>
+                                    <p class="about_education">7.2 CGPA</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section mt-2" id="skills">
+        <div class="container text-center mt-5">
+            <h2 class="skills_id">Skills:</h2>
+            <div class="row justify-content-center mt-5 skills_row">
+                <div class="col-4 ">
+                    <p class="skills_p">Html</p>
+                    <p class="skills_p">CSS</p>
+                    <p class="skills_p">javaScript</p>
+
+                </div>
+
+                <div class="col-4">
+                    <p class="skills_p">Bootstrap</p>
+                    <p class="skills_p">MySql</p>
+                    <p class="skills_p">Python</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:mamathant1997@gmail.com" class="footer__link">mamathant1997@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/mamatha-nt1997/" target="__blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/mamatha1997" target="__blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <!-- javascript -->
+    <script src="script.js">
+
+    </script>
+
+    <!--Bootstrap javaScript  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
